@@ -1,5 +1,6 @@
 {
   "name": "redux-music-search-prototype",
+  "homepage": "https://sinivuori.github.io/redux-music-search-prototype/",
   "version": "1.0.0",
   "description": "A simple web application to search music from iTunes API, for learning and prototyping Redux.",
   "main": "index.js",

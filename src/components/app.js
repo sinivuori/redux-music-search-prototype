@@ -9,7 +9,7 @@ export default class App extends Component {
         <div className="row">
           <div className="col-md-12">
             <div className="alert alert-info">
-                Content of this side is updated continuously. As the author is pushing code to his <a href="https://github.com/sinivuori/redux-music-search-prototype" target="_blank">Github repository</a>.
+                Content of this side is updated continuously. As the author is pushing code to his <a href="https://github.com/sinivuori/redux-music-search-prototype">Github repository</a>.
             </div>
           </div>
         </div>

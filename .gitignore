@@ -59,6 +59,7 @@ typings/
 
 bundle.js
 .DS_Store
+build/
 
 # IntelliJ
 *.iml

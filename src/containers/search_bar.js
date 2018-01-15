@@ -22,7 +22,7 @@ export default class SearchBar extends Component {
       <form onSubmit={this.onFormSubmit} className="input-group">
         <input
           placeholder="Seach for music"
-          className="form-control"
+          className="form-control search-bar"
           value={this.state.term}
           onChange={this.onInputChange}
         />

@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": "git@github.com:sinivuori/redux-music-search-prototype.git",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "NODE_ENV=development node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.dev.config.js",
     "build": "react-scripts build",
     "test": "jest",
     "predeploy": "npm run build",

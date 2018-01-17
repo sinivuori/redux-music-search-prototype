@@ -4,7 +4,7 @@ module.exports = {
   ],
   output: {
     path: __dirname,
-    publicPath: '/redux-music-search-prototype/',
+    publicPath: '/',
     filename: 'bundle.js'
   },
   module: {

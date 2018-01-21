@@ -9,7 +9,9 @@ export default class App extends Component {
         <div className="row" id="notification-container">
           <div className="col-md-12">
             <div className="alert alert-info">
-                Content of this side is updated continuously. As the author is pushing code to his <a href="https://github.com/sinivuori/redux-music-search-prototype">Github repository</a>.
+              <p>Source code of site can be found at <a href="https://github.com/sinivuori/redux-music-search-prototype">this Github repository</a>.</p>
+              <p>Music search API is provided courtesy of <a href="https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/">iTunes API</a>.</p>
+              <p>Preview of songs is provided courtesy of <a href="https://www.apple.com/itunes/">iTunes</a>.</p>
             </div>
           </div>
         </div>

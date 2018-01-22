@@ -1,11 +1,14 @@
 import {FETCH_MUSIC} from '../actions/index';
 
 export default function(state = [], action) {
+  var newState = [];
   switch (action.type) {
     case FETCH_MUSIC:
-      return [action.payload.data.results];
+      newState = [action.payload.data.results];
+      break;
     default:
-      return state;
+      newState = state;
+      break;
   }
-  return state;
+  return newState;
 }

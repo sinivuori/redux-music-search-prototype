@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://itunes.apple.com/search?media=music';
+const BASE_URL = 'https://itunes.apple.com/search?media=music&limit=25';
 
 export const FETCH_MUSIC = 'FETCH_MUSIC';
 

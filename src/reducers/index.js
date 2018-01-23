@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 import MusicReducer from './reducer_music';
 
 const rootReducer = combineReducers({
-  music: MusicReducer
+  musicSearchResults: MusicReducer
 });
 
 export default rootReducer;

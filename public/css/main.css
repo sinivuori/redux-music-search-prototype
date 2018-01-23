@@ -2,6 +2,14 @@
   margin-top: 20px;
 }
 
+.music-item {
+  margin-bottom: 20px;
+}
+
+.music-items-container {
+  margin-top: 20px;
+}
+
 html, body {
   height: 100%;
 }

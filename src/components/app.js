@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import SearchBar from '../containers/search_bar';
+import MusicList from '../containers/music_list';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class App extends Component {
@@ -7,6 +8,7 @@ export default class App extends Component {
     return (
       <div className="container-fluid" id="page-container">
         <SearchBar />
+        <MusicList />
       </div>
     );
   }

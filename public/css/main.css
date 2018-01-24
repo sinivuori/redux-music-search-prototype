@@ -15,6 +15,15 @@
   margin-bottom: 10px;
 }
 
+.music-detail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.courtesy-of-iTunes {
+  margin-top: 20px;
+}
+
 html, body {
   height: 100%;
 }

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import {fetchMusic} from '../actions/index';
+import {fetchMusic} from '../actions/action_fetch_music';
 
 class SearchBar extends Component {
   constructor(props) {

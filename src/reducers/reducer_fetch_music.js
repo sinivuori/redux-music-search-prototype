@@ -1,4 +1,4 @@
-import {FETCH_MUSIC} from '../actions/index';
+import {FETCH_MUSIC} from '../actions/action_fetch_music';
 
 export default function(state = {}, action) {
   var newState = [];

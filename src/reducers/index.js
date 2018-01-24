@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import MusicReducer from './reducer_music';
+import MusicSearchResults from './reducer_fetch_music';
+import ActiveMusic from './reducer_select_music';
 
 const rootReducer = combineReducers({
-  musicSearchResults: MusicReducer
+  musicSearchResults: MusicSearchResults,
+  activeMusic: ActiveMusic
 });
 
 export default rootReducer;

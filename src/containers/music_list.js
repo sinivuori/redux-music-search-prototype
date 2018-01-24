@@ -17,7 +17,7 @@ class MusicList extends Component {
     }
 
     return (
-      <div className="container-fluid music-items-container">
+      <div className="music-items-container">
         {musicList}
       </div>
     );

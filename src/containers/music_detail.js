@@ -42,6 +42,12 @@ class MusicDetail extends Component {
               <strong>From collection: </strong>{this.props.music.collectionName}
             </div>
           </div>
+          <br/>
+          <div className="row">
+            <div className="col-md-12">
+              <strong><a href={this.props.music.trackViewUrl}>View on iTunes Store</a></strong>
+            </div>
+          </div>
         </div>
       </div>
     );

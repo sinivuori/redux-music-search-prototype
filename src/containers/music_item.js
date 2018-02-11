@@ -10,7 +10,7 @@ class MusicItem extends Component {
         <div className="col-md-2 col-xs-2 music-info-text">
           <img src={this.props.music.artworkUrl100} alt={this.props.music.trackName} className="music-thumbnail rounded" onClick={() => this.props.selectMusic(this.props.music)} />
           <div className="play-icon-positioner">
-            <div className="play-icon-container">
+            <div className="play-icon-container" onClick={() => this.props.selectMusic(this.props.music)}>
               <i className="fas fa-play fa-3x"></i>
             </div>
           </div>

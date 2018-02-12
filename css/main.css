@@ -1,0 +1,66 @@
+#page-container {
+  margin-top: 20px;
+}
+
+.music-item {
+  margin-bottom: 20px;
+}
+
+.music-items-container {
+  margin-top: 20px;
+}
+
+.play-icon-positioner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.play-icon-positioner .play-icon-container {
+  position: absolute;
+  left: 55px;
+  top: 36px;
+}
+
+.play-icon-container svg {
+  color: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.music-thumbnail:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.music-info-text {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.music-detail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.courtesy-of-iTunes {
+  margin-top: 20px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+footer {
+  padding-top: 20px;
+  background: #d1ecf1;
+}
